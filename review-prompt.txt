@@ -1,0 +1,18 @@
+Review this make.fun bounty entry before submission. Be blunt and specific.
+
+COMPETITION: news-image-20261120 — "Sum up the world's news of Friday 20 November 2026 in one image." Prize $250, top 50 of 16,701 submissions share it (1st $50). An AI judge that can see images compares entries pairwise and picks the one that best sums up the day's world news; it has NO news feed — it judges as a careful picture editor, by what the image itself shows. Image must be PNG/JPEG ≤1 MiB, ≤1024×1024. Program runs twice, both runs must write identical bytes, no network. Entry = public GitHub repo with main.py in root that writes the image to /output/entry.png.
+
+TOP-10 PATTERN (from this competition's live leaderboard, win rates 0.988–0.992): dense newspaper-front-page infographics with 33–38 stories across 6–7 regions, dated, every figure attributed. Recurring headline stories: Kyiv bridges hit, Cyclone Akvan landfall, Asia's AI sell-off, UK–EU reset deal, COP31 final-day deadlock.
+
+MY ENTRY: a programmatically rendered (Python/PIL, DejaVu fonts) 1024×1024 PNG front page, "THE WORLD LEDGER", 178,507 bytes. Layout: masthead + "FRIDAY, 20 NOVEMBER 2026 · 35 STORIES · 7 REGIONS · EVERY FIGURE ATTRIBUTED"; lead story KYIV BRIDGES HIT (110+ missiles, ~400 drones, 3 Dnipro bridges named, 9 killed, 30 injured) + 4 secondary leads (Cyclone Akvan, 300,000+ evacuated; Asia AI sell-off Nikkei −5.1% Kospi −5.2%; UK–EU reset £17bn/yr, youth mobility 100,000; COP31 draft drops fossil-fuel phase-out); a markets strip (NIKKEI −5.1%, KOSPI −5.2%, TAIEX −6.2%, S&P 500 −2.0%, DOW −949, GOLD −2.3%, SOFTBANK −16%, ANTHROPIC +17%); 7 region blocks (EUROPE 5, ASIA 4, MIDDLE EAST 3, AFRICA 5, AMERICAS 5, OCEANIA 2, MARKETS & TECH 6 = 30 stories, numbered 01–30) each with a bold headline + one-line summary; footer with a 5-step UTC timeline (overnight/morning/midday/afternoon/evening), a sources line (Reuters, BBC, AP, AFP, FT, Kyiv Independent, WHO, JTWC, ECDC), and "DATE CHECK ✓ Friday 20 November 2026". Total 35 stories. All figures were checked against reporting from 20 Nov 2026 (Reuters/BBC/FT/WHO etc.).
+
+Region stories: Lviv station strike kills 2; missile debris in Poland; Berlin allies meet; France–UK food-rules row; Spain votes 29 Nov; Trump–Xi–Putin Shenzhen summit; ICJ: Myanmar committed genocide vs Rohingya; Seoul court frees ex-PM Han; Nvidia subpoenaed (California AG, China chips); Houthi missile hits Riyadh's tallest tower ($900bn fund HQ); three US carriers in Arabian Sea; COP31 nations demand stronger deal (Vanuatu); Kenya Ebola: 9 cases, 2 deaths, countdown on; DR Congo Ebola 11,407 cases, 5,572 deaths; Kenya $60bn Mrima Hill rare-earth win; South Sudan Ebola readiness; Tunisia jails Ben Sedrine 5 years; Bukele third-term bid; Brazil central bank sells $1bn; Lula flies to Spain; Anthropic record $81.3bn IPO ($97 close, +17%); AMD −7% short-seller report; Cyclone Xavier Cat 4; Fiji drought disaster; US stocks fall 5th day; Dow −949; gold −$83; SoftBank −16%; Korea sell-side halt; three protesters held at Anthropic IPO.
+
+main.py: deterministic copy — shutil.copyfile(entry.png → $MAKEFUN_OUTPUT_DIR/entry.png), asserts size match. Verified: two runs produce identical sha256, 1024×1024, 178,507 bytes.
+
+QUESTIONS:
+1. Any factual error in any figure, date, name or number above? List each with the correction.
+2. Does this match the winning top-10 pattern? What is missing or weaker vs that pattern?
+3. Any legibility/layout risk a picture-editor judge would penalise (text too small, clutter, hierarchy)?
+4. Anything that could disqualify it or push it out of the top 50?
+5. Give at most 3 concrete improvements worth making with ~20 hours left before the deadline (22 Nov 07:00 WIB). If none are worth it, say so.

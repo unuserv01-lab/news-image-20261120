@@ -1,0 +1,227 @@
+{
+ "date": "Friday 20 November 2026",
+ "leads": [
+  {
+   "figures": "110+ missiles · ~400 drones · 3 bridges · 9 killed",
+   "headline": "KYIV BRIDGES HIT",
+   "kicker": "LEAD · EUROPE",
+   "summary": "Russia fires 110+ missiles and ~400 drones overnight; ballistic missiles damage three Dnipro bridges — Podilsko-Voskresenskyi, Darnytskyi and Pivdennyi. Nine killed, 30 injured across Ukraine."
+  },
+  {
+   "figures": "300,000+ evacuated",
+   "headline": "Cyclone Akvan makes landfall in India",
+   "kicker": "ASIA",
+   "summary": "Severe cyclone strikes Odisha on the east coast; more than 300,000 people moved to safety."
+  },
+  {
+   "figures": "Nikkei −5.1% · Kospi −5.2%",
+   "headline": "Asia's AI sell-off deepens",
+   "kicker": "MARKETS",
+   "summary": "Nikkei −5.1%, Kospi −5.2%, Taiex −6.2% as investors dump tech; S&P 500 falls for a fifth straight day."
+  },
+  {
+   "figures": "£17bn a year · 100,000 places",
+   "headline": "UK–EU reset deal struck in Brussels",
+   "kicker": "EUROPE",
+   "summary": "Second EU–UK summit: £17bn-a-year boost; youth mobility for 100,000; fees unresolved."
+  },
+  {
+   "figures": "Final day · no phase-out",
+   "headline": "COP31 final day ends in deadlock",
+   "kicker": "CLIMATE",
+   "summary": "Antalya draft drops the fossil-fuel phase-out call and net-zero dates; talks may run past schedule."
+  }
+ ],
+ "markets": [
+  "NIKKEI −5.1%",
+  "KOSPI −5.2%",
+  "TAIEX −6.2%",
+  "S&P 500 −2.0%",
+  "DOW −949",
+  "GOLD −2.3%",
+  "SOFTBANK −16%",
+  "ANTHROPIC +17%"
+ ],
+ "masthead": "THE WORLD LEDGER",
+ "regions": [
+  {
+   "name": "EUROPE",
+   "stories": [
+    {
+     "h": "Lviv station strike kills two",
+     "s": "Railway station hit; two killed."
+    },
+    {
+     "h": "Missile debris falls in Poland",
+     "s": "Debris in Poland; army probing."
+    },
+    {
+     "h": "Allies meet in Berlin",
+     "s": "Europe united on Russia talks."
+    },
+    {
+     "h": "France, UK split over food rules",
+     "s": "Food-standards row clouds summit."
+    },
+    {
+     "h": "Spain votes 29 November",
+     "s": "Snap election looms in Spain."
+    }
+   ]
+  },
+  {
+   "name": "ASIA",
+   "stories": [
+    {
+     "h": "Trump, Xi and Putin meet in Shenzhen",
+     "s": "First three-way summit held."
+    },
+    {
+     "h": "World court: Myanmar committed genocide",
+     "s": "ICJ: Myanmar guilty of genocide."
+    },
+    {
+     "h": "Seoul court frees ex-PM Han",
+     "s": "15-year term overturned."
+    },
+    {
+     "h": "Nvidia subpoenaed in chip probe",
+     "s": "AG probes Nvidia's China chip sales."
+    }
+   ]
+  },
+  {
+   "name": "MIDDLE EAST",
+   "stories": [
+    {
+     "h": "Houthi missile hits Riyadh tower",
+     "s": "Tallest tower hit; $900bn fund HQ."
+    },
+    {
+     "h": "Three US carriers in Arabian Sea",
+     "s": "Three carriers in the Arabian Sea."
+    },
+    {
+     "h": "COP31: nations demand a stronger deal",
+     "s": "Vanuatu leads phase-out demand."
+    }
+   ]
+  },
+  {
+   "name": "AFRICA",
+   "stories": [
+    {
+     "h": "Kenya: no new Ebola case in a month",
+     "s": "Nine cases, two deaths; countdown on."
+    },
+    {
+     "h": "DR Congo Ebola passes 10,000 cases",
+     "s": "11,407 cases; 5,572 deaths; ~49% fatal."
+    },
+    {
+     "h": "Kenya's $60bn rare-earth win",
+     "s": "US wins Mrima Hill; rival objects."
+    },
+    {
+     "h": "South Sudan readies for Ebola",
+     "s": "WHO: South Sudan can detect virus."
+    },
+    {
+     "h": "Tunisia jails rights defender",
+     "s": "Ben Sedrine jailed 5 years."
+    }
+   ]
+  },
+  {
+   "name": "AMERICAS",
+   "stories": [
+    {
+     "h": "Bukele seeks a third term",
+     "s": "Bukele moves to formalise a third-term bid."
+    },
+    {
+     "h": "Brazil's central bank sells $1bn",
+     "s": "Central bank acts as the real weakens."
+    },
+    {
+     "h": "Lula flies to Spain",
+     "s": "Lula meets Sánchez before Spain's vote."
+    },
+    {
+     "h": "Anthropic's record $81.3bn IPO",
+     "s": "Shares close $97, up 17%; value ~$1.5tn."
+    },
+    {
+     "h": "AMD falls 7% on short-seller report",
+     "s": "Short-seller claims hit the chipmaker."
+    }
+   ]
+  },
+  {
+   "name": "OCEANIA",
+   "stories": [
+    {
+     "h": "Cyclone Xavier: Category 4",
+     "s": "Nadi tracks the severe Pacific system."
+    },
+    {
+     "h": "Fiji declares drought disaster",
+     "s": "Drought disaster; dry until April."
+    }
+   ]
+  },
+  {
+   "name": "MARKETS & TECH",
+   "stories": [
+    {
+     "h": "US stocks fall for a fifth day",
+     "s": "S&P 500 −2%; Nasdaq down more."
+    },
+    {
+     "h": "FTSE 100 falls 0.6%",
+     "s": "London lower; FTSE 100 off 0.6%."
+    },
+    {
+     "h": "CAC 40 −1.4%, DAX −1.9%",
+     "s": "Paris and Frankfurt fall with tech."
+    },
+    {
+     "h": "Nvidia scandal weighs on shares",
+     "s": "Doubts about AI valuations spread."
+    },
+    {
+     "h": "Korea halts selling",
+     "s": "Sell-side halt on the main index."
+    },
+    {
+     "h": "Three protesters held at IPO",
+     "s": "Arrests outside the Nasdaq debut."
+    }
+   ]
+  }
+ ],
+ "sources": "Reuters · BBC · AP · AFP · FT · Kyiv Independent · WHO · JTWC · ECDC",
+ "timeline": [
+  [
+   "OVERNIGHT",
+   "Kyiv barrage; bridges hit"
+  ],
+  [
+   "MORNING",
+   "Akvan lands; markets plunge"
+  ],
+  [
+   "MIDDAY",
+   "UK–EU deal announced"
+  ],
+  [
+   "AFTERNOON",
+   "COP31 drops phase-out"
+  ],
+  [
+   "EVENING",
+   "Kyiv toll rises to nine"
+  ]
+ ],
+ "total_stories": 35
+}
