@@ -1,21 +1,21 @@
-"""news-image-20261120 entry: copy the front-page image to /output/entry.png.
+"""Copy entry.png to the grader output directory.
 
-The image is the front page of THE WORLD LEDGER for Friday 20 November
-2026, built at build time (render.py renders stories.json to entry.png).
-This program deterministically copies it to the grader's output directory.
-It runs with no network, in a read-only container, and writes identical
-bytes on every run.
+The entry image is a fixed file shipped in the same directory as this
+program. The program copies it unchanged into the directory given by the
+MAKEFUN_OUTPUT_DIR environment variable (default /output) and checks that
+the copy has exactly the same size as the source, so repeated runs produce
+identical bytes. No network, no randomness.
 """
+
 import os
 import shutil
 
-SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "entry.png")
-OUT = os.path.join(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"), "entry.png")
+HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.join(HERE, "entry.png")
+OUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+OUT = os.path.join(OUT_DIR, "entry.png")
 
-os.makedirs(os.path.dirname(OUT), exist_ok=True)
+os.makedirs(OUT_DIR, exist_ok=True)
 shutil.copyfile(SRC, OUT)
 
-# The gate requires both runs to write the same bytes; a plain copy of a
-# fixed file is deterministic by construction, and we assert the copy
-# landed with the exact size of the source.
 assert os.path.getsize(OUT) == os.path.getsize(SRC), "copy size mismatch"
